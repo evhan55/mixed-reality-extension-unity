@@ -214,8 +214,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c08c6a44e83210c48bc797284376afc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MREURL: ws://mre-helloworld.us.openode.io
-  SessionID: testbed
+  MREURL: ws://team-planner.azurewebsites.net:80
+  SessionID: office
   AppID: helloworld
   UserProperties: []
   AutoStart: 0
@@ -480,6 +480,14 @@ PrefabInstance:
     - target: {fileID: 8871041723726913, guid: 0c91d240176e88c4280f9ee19d01bd45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871041722114625, guid: 0c91d240176e88c4280f9ee19d01bd45, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871041722114625, guid: 0c91d240176e88c4280f9ee19d01bd45, type: 3}
+      propertyPath: near clip plane
+      value: 0.85
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c91d240176e88c4280f9ee19d01bd45, type: 3}
