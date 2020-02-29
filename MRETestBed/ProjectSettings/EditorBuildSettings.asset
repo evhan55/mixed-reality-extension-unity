@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Standalone.unity
     guid: ffdc2456bf020d849b9ef4d6bd3d4824
+  - enabled: 1
+    path: Assets/Scenes/MRTKHelloWorld.unity
+    guid: 91b8207fcd4855e4fab9799dea2b4cfd
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 36d6ce5fae94b0d4db6ae4f499a2d9f1,
       type: 2}
